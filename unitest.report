@@ -1,0 +1,59 @@
+ unit::0b-queue      	           All tests	   20	    20	         0	     0
+
+ * empty            	          Empty list	    6	     6	         0	     0
+ * cons_delete      	    {Con/De}structor	   15	    15	         0	     0
+ unit::0-list        	           All tests	   21	    21	         0	     0
+
+ * pre_post         	Interface robustness	    4	     4	         0	     0
+ * constant         	    Constant regexps	    7	     7	         0	     0
+ * dot              	 `.` core properties	    3	     3	         0	     0
+ * dot              	      `.` continuity	    6	     6	         0	     0
+ * star             	 `*` core properties	   11	    11	         0	     0
+ * star             	      `*` continuity	    6	     6	         0	     0
+ * dot_star         	     `.*` properties	    6	     6	         0	     0
+ unit::1-regexp      	           All tests	   43	    43	         0	     0
+
+ * tests_basiques   	Test for chargroup.c	   26	    26	         0	     0
+ unit::2-chargroup   	           All tests	   26	    26	         0	     0
+
+ * test_read_positifs	Parsing : Valid cases (Simple)	   12	    12	         0	     0
+ * test_read_positifs	Parsing : Valid cases (Complex)	   14	    14	         0	     0
+ * test_read_positifs	Parsing : Valid cases (Complementary)	   34	    34	         0	     0
+ * test_read_special	Parsing : Special characters	   21	    21	         0	     0
+ * test_read_negatifs	Parsing : Invalid cases	   40	    40	         0	     0
+ * test_all_caracters	Parsing : All ASCII characters	   97	    97	         0	     0
+ unit::3-regexp-read 	           All tests	  218	   218	         0	     0
+
+ * match_char_classes	Negative tests for character classes and negation	    2	     2	         0	     0
+ * match_char_classes	Positive tests for character classes and negation	   15	    15	         0	     0
+ * match_plus_and_qmark	Negative tests for `+` and `?`	    8	     8	         0	     0
+ * match_plus_and_qmark	Positive tests for `+`	    7	     7	         0	     0
+ * match_plus_and_qmark	Positive tests for  `?`	    6	     6	         0	     0
+ unit::4-regexp-match	           All tests	   38	    38	         0	     0
+
+ * test_lexer_positif	Lexical analysis : Valid cases	   21	    21	         0	     0
+ * test_lexer_negatif	Lexical analysis : Invalid cases	    2	     2	         0	     0
+ * test_lexer_positif_complex	Lexical analysis : Complex valid cases	    4	     4	         0	     0
+ unit::5-lexer       	           All tests	   27	    27	         0	     0
+
+ * test_pyobj_positif	Parsing analysis : PyObj valid cases	   35	    35	         0	     0
+ * test_pyobj_negatif	Parsing analysis : PyObj invalid cases	    3	     3	         0	     0
+ * test_pyobj_positif_complementary	Parsing analysis : PyObj valid cases complementary	    9	     9	         0	     0
+ unit::6-pyobj       	           All tests	   47	    47	         0	     0
+
+ * test_parser_positif	Parsing valid analysis : 	   11	    11	         0	     0
+ * test_parser_negatif	Parsing invalid analysis : 	    4	     4	         0	     0
+ * test_parser_positif_complementary	Parsing valid analysis complementary tests: 	    4	     4	         0	     0
+ unit::7-parser      	           All tests	   19	    19	         0	     0
+
+ * test_lnotab_positif	Lnotab valid generation : 	    6	     6	         0	     0
+ * test_lnotab_negatif	Lnotab invalid generation : 	    1	     1	         0	     0
+ * test_lnotab_positif_complementary	Lnotab valid generation complementary tests: 	   10	    10	         0	     0
+ unit::8-lnotab      	           All tests	   17	    17	         0	     0
+
+ * test_pays_compile_and_serialize	PAYS: full compile + serialize	    0	     0	         0	     0
+ * test_pays_compile_and_serialize	 Processing file: %s	    7	     7	         0	     0
+ * test_pays_compile_and_serialize	 Processing file: %s	    7	     7	         0	     0
+ * test_pays_compile_and_serialize	 Processing file: %s	    7	     7	         0	     0
+ unit::9-pays        	           All tests	   21	    21	         0	     0
+
